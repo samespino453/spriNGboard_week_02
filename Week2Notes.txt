@@ -1,0 +1,16 @@
+Week 2 Notes:
+
+Fibonacci: 
+(FUN FACT) This program for the first coding question that I was ever asked
+This program starts with 2 number 0 and 1 and then add them and the pattern go on forever. 
+The number keeps getting bigger and bigger because theyre big calulations.
+Itertative implemenation is much slower than the recursive implemtation. 
+I noticed Fibonacci grows rapidly but factional grow even more rapidly. 
+Factional 25 is a huge number and isnt able to be represented.
+
+
+Time Dynamic Array and Deque:
+
+
+
+

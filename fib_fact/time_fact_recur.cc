@@ -10,7 +10,10 @@ int64_t fact(int N)
   //////////////////////////////////////////
   // INSERT RECURSIVE IMPLEMENTATION HERE //
   //////////////////////////////////////////
-
+if (N == 0)
+    return 1;
+  else
+    return N * fact(N - 1);
   // Pay attention to the return type!
 }
 

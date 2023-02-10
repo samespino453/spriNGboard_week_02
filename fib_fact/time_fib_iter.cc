@@ -6,7 +6,18 @@
 using namespace std;
 
 int fib(int N)
-{
+
+{   
+    if (N == 0) return 0;
+    if (N == 1) return 1;
+
+    int prev1 = 0, prev2 = 1, cur = 0;
+    for (int i = 2; i <=N; ++i)
+    {
+    cur = prev1 + prev2;
+    prev1 = prev2;
+    prev2 = cur;
+    }
   //////////////////////////////////////////
   // INSERT ITERATIVE IMPLEMENTATION HERE //
   //////////////////////////////////////////

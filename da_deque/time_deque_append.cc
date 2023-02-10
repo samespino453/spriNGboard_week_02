@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-
+#include <deque>
 #include <chrono>
 #include <vector>
 
@@ -20,7 +20,8 @@ int main ()
   for (int32_t run_idx=0; run_idx<num_runs; ++run_idx)
   {
     time_data.push_back(vector<int32_t>(num_elems, 0));
-
+    
+    deque<int32_t> container;
     ////////////////////////////////////////////////
     // CREATE AN EMPTY DEQUE NAMED container HERE //
     ////////////////////////////////////////////////
@@ -28,7 +29,8 @@ int main ()
     for (int32_t elem_idx=0; elem_idx<num_elems; ++elem_idx)
     {
       auto start = chrono::high_resolution_clock::now();
-
+      
+      container.push_back(elm_idx);
       //////////////////////////////////////////////////////
       // INSERT CODE TO APPEND elem_idx TO container HERE //
       //////////////////////////////////////////////////////

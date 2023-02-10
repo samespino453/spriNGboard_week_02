@@ -10,7 +10,9 @@ int64_t fact(int N)
   //////////////////////////////////////////
   // INSERT ITERATIVE IMPLEMENTATION HERE //
   //////////////////////////////////////////
-
+int64_t result = 1;
+  for (int i = 1; i <= N; i++) {
+    result *= i;
   // Pay attention to the return type!
 }
 
